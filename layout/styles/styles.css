@@ -1,0 +1,208 @@
+/* HOME PAGE */
+
+#map {
+    height: 100vh;
+    width: 100vh;
+    background-color: grey;
+    position: relative;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV BAR */
+
+.nav-image {
+    padding: 5px;
+}
+
+.nav-li-wrapper {
+    padding-right: 2vw;
+}
+
+.nav li.nav-li-wrapper#active > a, .nav li.nav-li-wrapper#active > a,
+.nav li.nav-li-wrapper > a:hover, .nav li.nav-li-wrapper > a:hover,
+.nav .nav-li-wrapper#active > a, .nav .nav-li-wrapper#active > a,
+.nav .nav-li-wrapper > a:hover, .nav .nav-li-wrapper > a:hover{
+    background: rgba(30, 153, 28, 0.7) !important;
+    text-decoration:none;
+}
+
+.nav, .sidenav {
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.nav .li, .sidenav .li {
+    display: block;
+    float: left;
+    -webkit-transition: background 500ms ease;
+    -moz-transition: background 500ms ease;
+    -ms-transition: background 500ms ease;
+    -o-transition: background 500ms ease;
+    transition: background 500ms ease;
+    color: #fff;
+}
+
+.nav a, .dropdown-menu > li > a, .sidenav a{
+    display: block;
+    color: #fff !important;
+    height: 100%;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.drop-down-wrapper {
+    background-color: #333 !important;
+}
+
+
+.navbar {
+    padding:10px;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    margin-bottom:0 !important;
+    border-width:0 !important;
+}
+
+.sidenav {
+    background-color: rgba(0,0,0,0.97);
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.navbar a {
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/*Drop down course page*/
+
+a h4.panel-title, a:hover {
+    text-decoration: none !important;
+    color: #000;
+}
+
+
+/*footer*/
+
+#container {
+    min-height:100%;
+    position:relative;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+#body {
+    padding:0;
+    padding-bottom:60px;   /* Height of the footer */
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+    float:left;
+}
+/*And one simple CSS rule for IE 6 and IE 5.5:*/
+
+#container {
+    height:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
