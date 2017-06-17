@@ -1,13 +1,4 @@
 @charset "utf-8";
-/*
-Template Name: Ligerrat
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
-File: Layout CSS
-*/
-
 @import url("fontawesome-4.5.0.min.css");
 @import url("framework.css");
 
@@ -33,7 +24,6 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #header{padding:30px 0 0 0;}
 
-#header #logo{margin-top:;}
 #header #logo h1{margin:0; padding:0; font-size:22px; text-transform:uppercase;}
 
 
