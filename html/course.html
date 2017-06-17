@@ -20,94 +20,166 @@
 <!-- Boot strap -->
 <script src="../layout/scripts/bootstrap.min.js"></script>
 
-<!-- Side bar -->
-<div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" style="text-decoration:none;" onclick="closeNav()">&times;</a>
-    <ul style="list-style: none; padding: 0px;">
-        <li class="nav-li-wrapper sidebar-wrapper"><a href="#">Home</a></li>
-        <li class="nav-li-wrapper sidebar-wrapper"><a href="#">Land</a></li>
-        <li class="nav-li-wrapper sidebar-wrapper"><a href="#">Staff</a></li>
-        <li class="nav-li-wrapper sidebar-wrapper"><a href="#">Block Info</a></li>
-        <li class="nav-li-wrapper sidebar-wrapper"><a href="#">Tasks</a></li>
-    </ul>
-</div>
+<div id="container">
 
+    <div id="header">
 
-<!-- Banner bar -->
-<nav class="navbar navbar-inverse" style="padding-bottom:0;">
+        <!-- Banner bar -->
+        <nav class="navbar navbar-inverse" style="padding-bottom:0;">
 
-    <a href="index.html">
-        <img src="../images/vic_logo.jpg" style="height:60px; float:left; margin: auto 0; margin-left: 40px;"/>
-        <img src="../images/logo.jpg" style="height:50px; float:left; margin: auto 0; margin-left: 40px;"/>
-    </a>
+            <a href="index.html">
+                <img src="../images/vic_logo.jpg" style="height:60px; float:left; margin: auto 0; margin-left: 40px;"/>
+                <img src="../images/logo.jpg" style="height:50px; float:left; margin: auto 0; margin-left: 40px;"/>
+            </a>
 
-</nav>
+        </nav>
 
-<!-- Navigation bar -->
-<nav class="navbar navbar-inverse" style="padding:0px;">
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-inverse" style="padding:0px;">
 
-    <div class="container-fluid" style="float:left; margin-left:20px;">
+            <div class="container-fluid" style="float:left; margin-left:20px;">
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="nav">
-            <ul class="nav navbar-nav navbar-right">
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="nav navbar-nav navbar-right">
 
-                <li class="dropdown nav-li-wrapper">
-                    <a href="#" class="nav-link-a" role="button">Home</a>
-                </li>
+                        <li class="dropdown nav-li-wrapper">
+                            <a href="#" class="nav-link-a" role="button">Home</a>
+                        </li>
 
-                <li class="dropdown nav-li-wrapper">
-                    <a href="#" class="dropdown-toggle nav-link-a" data-toggle="dropdown" role="button"
-                       aria-haspopup="true" aria-expanded="false">
-                        Courses
-                        <span class="caret"></span></a>
-                    <ul class="dropdown-menu drop-down-wrapper">
-                        <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">SWEN 301</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">ENGR 301</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">COMP 307</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">SWEN 303</a></li>
+                        <li class="dropdown nav-li-wrapper">
+                            <a href="#" class="dropdown-toggle nav-link-a" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">
+                                Courses
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu drop-down-wrapper">
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">SWEN 301</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">ENGR 301</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">COMP 307</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">SWEN 303</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown nav-li-wrapper">
+                            <a href="#" class="nav-link-a" role="button">Marks</a>
+                        </li>
+
+                        <li class="dropdown nav-li-wrapper">
+                            <a href="#" class="nav-link-a" role="button">Submission</a>
+                        </li>
+
                     </ul>
-                </li>
+                </div><!-- /.navbar-collapse -->
 
-                <li class="dropdown nav-li-wrapper">
-                    <a href="#" class="nav-link-a" role="button">Marks</a>
-                </li>
-
-                <li class="dropdown nav-li-wrapper">
-                    <a href="#" class="nav-link-a" role="button">Submission</a>
-                </li>
-
-            </ul>
-        </div><!-- /.navbar-collapse -->
-
-    </div><!-- /.container-fluid -->
-</nav>
-
-
-
-
-
-<div class="wrapper row5">
-    <div id="copyright" class="hoc clear">
-        <!-- ################################################################################################ -->
-        <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Victoria University Wellington</a>
-        </p>
-        <!-- ################################################################################################ -->
+            </div><!-- /.container-fluid -->
+        </nav>
     </div>
+    <div id="body">
+
+        <div class="panel-group" id="accordion">
+
+            <!-- Lectures -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="btn-block">
+                        <h4 class="panel-title">Lectures</h4>
+                    </a>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse">
+                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Assignment -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="btn-block">
+                        <h4 class="panel-title">Assignments</h4>
+                    </a>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Outline -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="btn-block">
+                        <h4 class="panel-title">Course Outline</h4>
+                    </a>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- People -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="btn-block">
+                        <h4 class="panel-title">People</h4>
+                    </a>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                    <div class="panel-body"><img src="../images/nobel.jpeg" />
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Tech -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="btn-block">
+                        <h4 class="panel-title">Assignment Handout</h4>
+                    </a>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse">
+                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="wrapper row5 footer" id="footer">
+        <div id="copyright" class="hoc clear">
+            <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Victoria University
+                Wellington</a></p>
+        </div>
+    </div>
+
+    <!-- JAVA SCRIPT -->
+    <script src="layout/scripts/jquery.min.js"></script>
+    <script src="layout/scripts/jquery.backtotop.js"></script>
+    <script src="layout/scripts/jquery.mobilemenu.js"></script>
+
+    <!-- IE9 Placeholder Support -->
+    <script src="layout/scripts/jquery.placeholder.min.js"></script>
+    <!-- / IE9 Placeholder Support -->
 </div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
-<!-- JAVASCRIPTS -->
-<script src="layout/scripts/jquery.min.js"></script>
-<script src="layout/scripts/jquery.backtotop.js"></script>
-<script src="layout/scripts/jquery.mobilemenu.js"></script>
-<!-- IE9 Placeholder Support -->
-<script src="layout/scripts/jquery.placeholder.min.js"></script>
-<!-- / IE9 Placeholder Support -->
 </body>
 </html>
