@@ -9,6 +9,9 @@
     <!-- Style sheet -->
     <link href="layout/styles/styles.css" rel="stylesheet">
 
+    <!-- Login Popup -->
+    <link href="layout/styles/popup.css" rel="stylesheet">
+
     <!-- Bootstrap -->
     <link href="layout/scripts/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -18,6 +21,15 @@
 
 <!-- Boot strap -->
 <script src="layout/scripts/bootstrap.min.js"></script>
+
+<!-- Login Popup -->
+<script src="jquery.js"></script>
+<script>
+    $( document ).ready(function(){
+    $(".overlayLogin, .popupLogin").fadeToggle();
+})
+
+</script>
 
 <!-- Side bar -->
 <div id="mySidenav" class="sidenav">
@@ -30,6 +42,8 @@
         <li class="nav-li-wrapper sidebar-wrapper"><a href="#">Tasks</a></li>
     </ul>
 </div>
+
+
 
 
 <!-- Navigation bar -->
@@ -80,6 +94,7 @@
     </div><!-- /.container-fluid -->
 </nav>
 
+<div class="overlayLogin"> <!-- background blur -->
 
 <div class="wrapper bgded overlay" style="background-image:url('images/m/demo/backgrounds/01.png');">
     <div id="pageintro" class="hoc clear">
@@ -133,7 +148,7 @@
             </ul>
         </div>
     </footer>
-</div>
+
 
 <div class="wrapper row5">
     <div id="copyright" class="hoc clear">
@@ -141,6 +156,7 @@
     </div>
 </div>
 
+</div>
 <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
 <script src="layout/scripts/jquery.min.js"></script>
@@ -149,5 +165,22 @@
 <!-- IE9 Placeholder Support -->
 <script src="layout/scripts/jquery.placeholder.min.js"></script>
 <!-- / IE9 Placeholder Support -->
+</div> <!-- / background blur -->
+
+<div class="popupLogin">
+
+
+
+<form action="" method="post" name="Login_Form" class="form-signin">
+    <h3 class="form-signin-heading">Welcome Back! Please Sign In</h3>
+
+      <input type="text" class="form-control" name="Username" placeholder="Username" required="" autofocus="" />
+      <input type="password" class="form-control" name="Password" placeholder="Password" required=""/>
+
+      <button class="btn btn-lg btn-primary btn-block"  name="Submit" value="Login" type="Submit">Login</button>
+</form>
+
+
+</div>
 </body>
 </html>

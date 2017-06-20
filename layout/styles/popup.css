@@ -1,0 +1,67 @@
+html,
+login {
+    height: 100%;
+}
+.overlayLogin {
+ 	position:absolute;
+	display:none;
+
+    /* color with alpha transparency */
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+
+    /* stretch to screen edges */
+    top: 0;
+	left: 0;
+    bottom: 0;
+    right: 0;
+}
+.popupLogin {
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    display: none;
+    background-color: #255625;
+    text-align: center;
+
+    /* center it ? */
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+
+.form-signin {
+  max-width: 420px;
+  padding: 30px 38px 66px;
+  margin: 0 auto;
+  }
+
+.form-signin-heading {
+  text-align:center;
+  margin-bottom: 30px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+}
+
+input[type="text"] {
+  margin-bottom: 0px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
