@@ -23,13 +23,31 @@
 .nav-li-wrapper {
     padding-right: 2vw;
 }
+.navbar {
+    min-height:70px !important;
+}
+
+
+.drop-down-wrapper li {
+    margin:0;
+    padding:0;
+    width:100% !important;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px
+}
+
 
 .nav li.nav-li-wrapper#active > a, .nav li.nav-li-wrapper#active > a,
 .nav li.nav-li-wrapper > a:hover, .nav li.nav-li-wrapper > a:hover,
 .nav .nav-li-wrapper#active > a, .nav .nav-li-wrapper#active > a,
-.nav .nav-li-wrapper > a:hover, .nav .nav-li-wrapper > a:hover{
+.nav .nav-li-wrapper > a:hover, .nav .nav-li-wrapper > a:hover {
     background: rgba(30, 153, 28, 0.7) !important;
-    text-decoration:none;
+    text-decoration: none;
+
 }
 
 .nav, .sidenav {
@@ -47,7 +65,7 @@
     color: #fff;
 }
 
-.nav a, .dropdown-menu > li > a, .sidenav a{
+.nav a, .dropdown-menu > li > a, .sidenav a {
     display: block;
     color: #fff !important;
     height: 100%;
@@ -59,23 +77,23 @@
     font-size: 13px;
     font-weight: bold;
     line-height: normal;
+    width:100% !important;
 }
 
 .drop-down-wrapper {
     background-color: #333 !important;
 }
 
-
 .navbar {
-    padding:10px;
+    padding: 10px;
     border-radius: 0 !important;
     -moz-border-radius: 0 !important;
-    margin-bottom:0 !important;
-    border-width:0 !important;
+    margin-bottom: 0 !important;
+    border-width: 0 !important;
 }
 
 .sidenav {
-    background-color: rgba(0,0,0,0.97);
+    background-color: rgba(0, 0, 0, 0.97);
     height: 100%;
     width: 0px;
     position: fixed;
@@ -92,7 +110,6 @@
     display: block;
     transition: 0.3s;
 }
-
 
 @media screen and (max-height: 450px) {
     .sidenav {
@@ -111,68 +128,47 @@ a h4.panel-title, a:hover {
     color: #000;
 }
 
-
 /*footer*/
 
 #container {
-    min-height:100%;
-    position:relative;
+    min-height: 100%;
+    position: relative;
 }
 
 html, body {
-    margin:0;
-    padding:0;
-    height:100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 #body {
-    padding:0;
-    padding-bottom:60px;   /* Height of the footer */
+    padding: 0;
+    padding-bottom: 60px; /* Height of the footer */
 }
 
 #footer {
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:60px;
-    float:left;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    float: left;
 }
+
 /*And one simple CSS rule for IE 6 and IE 5.5:*/
 
 #container {
-    height:100%;
+    height: 100%;
 }
 
-
 .pdf-icon {
-    width:25px;
-    height:25px;
+    width: 25px;
+    height: 25px;
     margin: 0 auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.dropdown-menu {
+    padding:5px !important;
+}
 
 
 

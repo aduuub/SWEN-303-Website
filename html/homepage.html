@@ -20,6 +20,14 @@
 <!-- Boot strap -->
 <script src="../layout/scripts/bootstrap.min.js"></script>
 
+<script>
+    $(document).ready(function () {
+        $(".profile-img").hover(function () {
+            $("slider").toggleClass("closed");
+        });
+    });
+</script>
+
 <div id="container">
 
     <div id="header">
@@ -53,7 +61,8 @@
                                 Courses
                                 <span class="caret"></span></a>
                             <ul class="dropdown-menu drop-down-wrapper">
-                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="course.html">SWEN 301</a></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="course.html">SWEN
+                                    301</a></li>
                                 <li role="separator" class="divider"></li>
                                 <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">ENGR 301</a></li>
                                 <li role="separator" class="divider"></li>
@@ -79,7 +88,13 @@
     </div>
     <div id="body">
 
-        <img src="../images/snake.jpg" />
+        <div class="alert alert-success" style="padding-top:15px;">
+            <h4>Too many elements in the sidebar</h4>
+            <p>Currently there are 4. The Maximum is 3. Please remove sidebar class from elements you do not want to
+                appear in the sidebar.</p>
+
+            <p>The following sidebar elements were not added: </p>
+        </div>
 
     </div>
     <div class="wrapper row5 footer" id="footer">
@@ -90,13 +105,8 @@
     </div>
 
     <!-- JAVA SCRIPT -->
-    <script src="layout/scripts/jquery.min.js"></script>
-    <script src="layout/scripts/jquery.backtotop.js"></script>
-    <script src="layout/scripts/jquery.mobilemenu.js"></script>
+    <script src="../js/main.js"></script>
 
-    <!-- IE9 Placeholder Support -->
-    <script src="layout/scripts/jquery.placeholder.min.js"></script>
-    <!-- / IE9 Placeholder Support -->
 </div>
 </body>
 </html>

@@ -6,11 +6,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-    <!-- Style sheet -->
-    <link href="../layout/styles/styles.css" rel="stylesheet">
+
 
     <!-- Bootstrap -->
     <link href="../layout/scripts/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/font/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/libs/materialize/css/materialize.min.css" media="screen,projection"/>
+
+    <link rel="stylesheet" href="assets/libs/sweetalert/sweet-alert.css" media="screen,projection"/>
+
+    <link rel="stylesheet" href="assets/libs/owl-carousel/owl.carousel.css" media="screen,projection"/>
+    <link rel="stylesheet" href="assets/libs/owl-carousel/owl.transitions.css" media="screen,projection"/>
+    <link rel="stylesheet" href="assets/libs/owl-carousel/owl.theme.css" media="screen,projection"/>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="../layout/styles/normalize.css">
+    <link rel="stylesheet" href="../layout/styles/animate.min.css">
+    <link href="../layout/styles/styles.css" rel="stylesheet">
+
+
 
 </head>
 <body id="top">
@@ -19,6 +37,8 @@
 
 <!-- Boot strap -->
 <script src="../layout/scripts/bootstrap.min.js"></script>
+
+<script src="../layout/styles/main.css"></script>
 
 <div id="container">
 
@@ -35,15 +55,15 @@
         </nav>
 
         <!-- Navigation bar -->
-        <nav class="navbar navbar-inverse" style="padding:0px;">
+        <nav class="navbar navbar-inverse" style="padding-top:0;">
 
-            <div class="container-fluid" style="float:left; margin-left:20px;">
+            <div class="container-fluid" style="float:left; margin-left:10px; ">
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="nav">
+                <div class="collapse navbar-collapse" id="nav" style="">
                     <ul class="nav navbar-nav navbar-right">
 
-                        <li class="dropdown nav-li-wrapper">
+                        <li class="dropdown nav-li-wrapper" style="">
                             <a href="homepage.html" class="nav-link-a" role="button">Home</a>
                         </li>
 
@@ -198,59 +218,34 @@
                 <div id="collapse2" class="panel-collapse collapse">
                     <div class="panel-body">
 
-                        <div style="float:left;">
-                            <table class="table" style="max-width: 700px; margin:0 auto;">
-                                <thead>
-                                <tr>
-                                    <th>Assignment</th>
-                                    <th>Marks (%)</th>
-                                    <th>Grade (%)</th>
-                                    <th>Weight (%)</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>Assignment One</td>
-                                    <td>98</td>
-                                    <td>A+</td>
-                                    <td>15</td>
+                        <table class="table" style="max-width: 800px;">
+                            <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Description</th>
+                                <th>Download</th>
+                                <th>Percentage</th>
+                                <th>Due Date</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Assignment One</td>
+                                <td>Putting Machine Learning into practice. 3 part assignment</td>
+                                <td><a href="#"><img src="../images/pdf-icon.svg" class="pdf-icon"/> </a></td>
+                                <td>25%</td>
+                                <td><p>3/07/2017</td>
+                            </tr>
+                            <tr>
+                                <td>Assignment Two</td>
+                                <td>Practicing planning and scheduling before the exam. 12 part assignment</td>
+                                <td><a href="#"><img src="../images/pdf-icon.svg" class="pdf-icon"/> </a></td>
+                                <td>15%</td>
+                                <td><p>3/07/2017</td>
+                            </tr>
 
-                                </tr>
-                                <tr>
-                                    <td>Assignment Two</td>
-                                    <td>78.2</td>
-                                    <td>B+</td>
-                                    <td>15</td>
-
-                                </tr>
-                                <tr>
-                                    <td>Project</td>
-                                    <td>85.5</td>
-                                    <td>A</td>
-                                    <td>50</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <div style="float:right;">
-                            <table class="table" style="max-width: 700px; border:none;">
-                                <thead>
-                                <tr>
-                                    <th colspan="2">Average</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>B+</td>
-                                    <td>77.6%</td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2">80% Complete</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                            </tbody>
+                        </table>
 
                     </div>
                 </div>
@@ -318,14 +313,149 @@
                 </div>
                 <div id="collapse4" class="panel-collapse collapse">
                     <div class="panel-body">
-                        <div style="float:left; width:15%; ">
-                            <img style="" src="../images/nobel.jpeg"/>
-                        </div>
-                        <div style="float:right; width:80%;">
-                            <h3 style="padding-top: 0; margin-top: 0;">James Noble</h3>
-                            <h4>Coordinator</h4>
-                            <p>355 Cotton, Kelburn</p>
-                        </div>
+                        <section id="experience" class="root-sec padd-tb-120 experience-wrap">
+
+                            <div class="container">
+                                <div class="row">
+                                    <div class="experience-inner">
+                                        <div class="col-sm-12 col-md-10 card-box-wrap">
+                                            <div class="row">
+
+
+                                                <div class="col-lg-12">
+                                                    <div class="row">
+                                                        <div id="experienceSlider"
+                                                             class="clearfix card-element-wrapper">
+
+                                                            <div class="col-sm-3 cold-xs-12 single-card-box wow fadeInUpSmall"
+                                                                 data-wow-duration=".7s">
+                                                                <div class="card">
+                                                                    <div class="card-image waves-effect waves-block waves-light">
+                                                                        <h2 class="left-align card-title-top">January
+                                                                            2017 -
+                                                                            Present</h2>
+                                                                        <div class="valign-wrapper card-img-wrap">
+                                                                            <img class="activator"
+                                                                                 src="../images/nobel.jpeg"
+                                                                                 alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="card-content">
+                                                                    <span class="card-title activator brand-text">Mengjie Zhang <i
+                                                                            class="mdi-navigation-more-vert right"></i></span>
+                                                                        <p>Coordinator</p>
+                                                                    </div>
+                                                                    <div class="card-reveal">
+                                                                        <div class="rev-title-wrap">
+                                                                        <span class="card-title activator brand-text">Mengjie Zhang <i
+                                                                                class="mdi-navigation-close right"></i></span>
+                                                                            <p>Coordinator</p>
+                                                                        </div>
+                                                                        <!--<p class="rev-content">-->
+                                                                        <div style="padding:30px !important; padding-left:20px !important;">
+                                                                            <ol>
+                                                                                <li style="">352 Cotton, Kelburn</li>
+                                                                                <li>Mengjie.Zhang@vuw.ac.nz</li>
+                                                                                <li>04 4635654</li>
+                                                                            </ol>
+                                                                        </div>
+
+
+                                                                        <!--</p>-->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-sm-3 cold-xs-12 single-card-box wow fadeInUpSmall"
+                                                                 data-wow-duration=".7s">
+                                                                <div class="card">
+                                                                    <div class="card-image waves-effect waves-block waves-light">
+                                                                        <h2 class="left-align card-title-top">July 2016
+                                                                            -
+                                                                            November 2016</h2>
+                                                                        <div class="valign-wrapper card-img-wrap">
+                                                                            <img class="activator"
+                                                                                 src="../images/nobel.jpeg"
+                                                                                 alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="card-content">
+                                                                    <span class="card-title activator brand-text">COMP 103 Tutor<i
+                                                                            class="mdi-navigation-more-vert right"></i></span>
+                                                                        <p>Victoria University</p>
+                                                                    </div>
+                                                                    <div class="card-reveal">
+                                                                        <div class="rev-title-wrap">
+                                                                        <span class="card-title activator brand-text">COMP 103 Tutor <i
+                                                                                class="mdi-navigation-close right"></i></span>
+                                                                            <p>Victoria University</p>
+                                                                        </div>
+                                                                        <p class="rev-content">
+                                                                            I monitor the online help which involves
+                                                                            resolving questions about the assignments
+                                                                            and
+                                                                            de-bugging students code, then pointing them
+                                                                            in
+                                                                            the right direction. I also mark these
+                                                                            assignments each week.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-3 cold-xs-12 single-card-box wow fadeInUpSmall"
+                                                                 data-wow-delay=".2s" data-wow-duration=".7s">
+                                                                <div class="card">
+                                                                    <div class="card-image waves-effect waves-block waves-light">
+                                                                        <h2 class="left-align card-title-top">January
+                                                                            2016 -
+                                                                            July 2016</h2>
+                                                                        <div class="valign-wrapper card-img-wrap">
+                                                                            <img class="activator"
+                                                                                 src="../images/nobel.jpeg"
+                                                                                 alt="">
+                                                                        </div>
+                                                                    </div>
+
+
+                                                                    <div class="card-content">
+                                                                    <span class="card-title activator brand-text">COMP 102 Tutor<i
+                                                                            class="mdi-navigation-more-vert right"></i></span>
+                                                                        <p>Victoria University</p>
+                                                                    </div>
+                                                                    <div class="card-reveal">
+                                                                        <div class="rev-title-wrap">
+                                                                        <span class="card-title activator brand-text">COMP 102 Tutor<i
+                                                                                class="mdi-navigation-close right"></i></span>
+                                                                            <p>Victoria University</p>
+                                                                        </div>
+                                                                        <p class="rev-content">
+                                                                            This involved tutoring students who have
+                                                                            never
+                                                                            programmed before, which involved breaking
+                                                                            down
+                                                                            problems into small peices that can be
+                                                                            understood by someone who doesn't understand
+                                                                            code. I also marked the students
+                                                                            assignments.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- TODO https://recruit.summeroftech.co.nz/students/2808 -->
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
                     </div>
                 </div>
             </div>
@@ -358,12 +488,25 @@
     </div>
 
     <!-- JAVA SCRIPT -->
-    <script src="layout/scripts/jquery.min.js"></script>
-    <script src="layout/scripts/jquery.backtotop.js"></script>
-    <script src="layout/scripts/jquery.mobilemenu.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/detectmobilebrowser.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/waypoints.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="assets/js/gmaps.js"></script>
+    <script src="assets/libs/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/libs/materialize/js/materialize.min.js"></script>
+    <script src="assets/libs/jwplayer/jwplayer.js"></script>
+    <script src="assets/libs/sweetalert/sweet-alert.min.js"></script>
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/main.js"></script>
 
     <!-- IE9 Placeholder Support -->
-    <script src="layout/scripts/jquery.placeholder.min.js"></script>
     <!-- / IE9 Placeholder Support -->
 </div>
 </body>
