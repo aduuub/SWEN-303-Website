@@ -172,6 +172,21 @@ html, body {
 }
 
 
+/* Alerts */
+
+.alert {
+    margin-bottom:5px !important;
+}
+
+/* Image cards - drop down */
+.brand-text {
+    color: #000 !important;
+}
+
+.experience-wrap {
+    padding: 20px 0 !important;
+}
+
 
 
 
