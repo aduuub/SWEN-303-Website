@@ -28,7 +28,8 @@
     <link rel="stylesheet" href="../layout/styles/animate.min.css">
     <link href="../layout/styles/styles.css" rel="stylesheet">
 
-
+    <!-- Login Popup -->
+    <link href="../layout/styles/popup.css" rel="stylesheet">
 
 </head>
 <body id="top">
@@ -39,6 +40,7 @@
 <script src="../layout/scripts/bootstrap.min.js"></script>
 
 <script src="../layout/styles/main.css"></script>
+
 
 <div id="container">
 
@@ -97,6 +99,10 @@
             </div><!-- /.container-fluid -->
         </nav>
     </div>
+
+    <div class="overlayLogin"> <!-- background blur -->
+    </div>
+
     <div id="body" style="padding:10px 40px 40px 40px;">
 
         <h1 style="padding-bottom:10px;">COMP 307</h1>
@@ -487,6 +493,36 @@
         </div>
     </div>
 
+
+    <div class="popupLogin">
+
+
+        <form action="" method="post" name="Login_Form" class="form-signin" onsubmit="return false">
+            <h3 class="form-signin-heading">Welcome Back! Please Sign In</h3>
+
+            <input type="text" class="form-control" name="Username" placeholder="Username" required="" autofocus=""/>
+            <input type="password" class="form-control" name="Password" placeholder="Password" required=""/>
+
+            <button id="login" class="btn btn-lg btn-primary btn-block" name="Submit" value="Login" type="Submit">
+                Login
+            </button>
+        </form>
+
+
+    </div>
+
+    <!-- Login Popup -->
+    <script>
+        $(document).ready(function () {
+            $(".overlayLogin, .popupLogin").fadeToggle();
+        })
+
+        $("#login").click(function () {
+            $(".overlayLogin, .popupLogin").fadeToggle();
+        })
+
+    </script>
+
     <!-- JAVA SCRIPT -->
     <script src="../js/wow.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -508,6 +544,8 @@
 
     <!-- IE9 Placeholder Support -->
     <!-- / IE9 Placeholder Support -->
+
+
 </div>
 </body>
 </html>

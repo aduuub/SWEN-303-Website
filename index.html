@@ -9,6 +9,9 @@
     <!-- Style sheet -->
     <link href="layout/styles/styles.css" rel="stylesheet">
 
+    <!-- Login Popup -->
+    <link href="layout/styles/popup.css" rel="stylesheet">
+
     <!-- Bootstrap -->
     <link href="layout/scripts/bootstrap.min.css" rel="stylesheet">
 
@@ -20,9 +23,38 @@
 <!-- Boot strap -->
 <script src="layout/scripts/bootstrap.min.js"></script>
 
+<<<<<<< HEAD
+<!-- Login Popup -->
+<script src="jquery.js"></script>
+<script>
+    $( document ).ready(function(){
+    $(".overlayLogin, .popupLogin").fadeToggle();
+})
+
+</script>
+
+<!-- Side bar -->
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" style="text-decoration:none;" onclick="closeNav()">&times;</a>
+    <ul style="list-style: none; padding: 0px;">
+        <li class="nav-li-wrapper sidebar-wrapper"><a href="#">Home</a></li>
+        <li class="nav-li-wrapper sidebar-wrapper"><a href="#">Land</a></li>
+        <li class="nav-li-wrapper sidebar-wrapper"><a href="#">Staff</a></li>
+        <li class="nav-li-wrapper sidebar-wrapper"><a href="#">Block Info</a></li>
+        <li class="nav-li-wrapper sidebar-wrapper"><a href="#">Tasks</a></li>
+    </ul>
+</div>
+
+
+
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-inverse" style="padding:10px;">
+=======
 <div id="container">
 
     <div id="header">
+>>>>>>> 47ea520d3b5c64d4e9849a5664f7471f665916a2
 
         <!-- Banner bar -->
         <nav class="navbar navbar-inverse" style="padding-bottom:0;">
@@ -32,7 +64,62 @@
                 <img src="images/logo.jpg" style="height:50px; float:left; margin: auto 0; margin-left: 40px;"/>
             </a>
 
+<<<<<<< HEAD
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown nav-li-wrapper">
+                    <a href="#" class="dropdown-toggle nav-link-a" data-toggle="dropdown" role="button"
+                       aria-haspopup="true"
+                       aria-expanded="false">Home page<span class="caret"></span></a>
+                    <ul class="dropdown-menu drop-down-wrapper">
+                        <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">Profile</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">Log out</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown nav-li-wrapper">
+                    <a href="#" class="dropdown-toggle nav-link-a" data-toggle="dropdown" role="button"
+                       aria-haspopup="true"
+                       aria-expanded="false">Course<span class="caret"></span></a>
+                    <ul class="dropdown-menu drop-down-wrapper">
+                        <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">Profile</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">Log out</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown nav-li-wrapper">
+                    <a href="#" class="dropdown-toggle nav-link-a" data-toggle="dropdown" role="button"
+                       aria-haspopup="true"
+                       aria-expanded="false">Account<span class="caret"></span></a>
+                    <ul class="dropdown-menu drop-down-wrapper">
+                        <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">Profile</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">Log out</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="overlayLogin"> <!-- background blur -->
+
+<div class="wrapper bgded overlay" style="background-image:url('images/m/demo/backgrounds/01.png');">
+    <div id="pageintro" class="hoc clear">
+        <article class="introtxt" style="margin: 0 auto;">
+            <h2 class="heading">Welcome to Victoria</h2>
+            <p>Arcu tortor mauris sit amet sagittis ex aliquam augue urna placerat id rutrum</p>
+            <footer>
+                <ul class="nospace inline pushright">
+                    <li><a class="btn" href="#">Current Student</a></li>
+                    <li><a class="btn inverse" href="#">Prospective Student</a></li>
+                </ul>
+            </footer>
+        </article>
+=======
         </nav>
+>>>>>>> 47ea520d3b5c64d4e9849a5664f7471f665916a2
     </div>
     <div id="body">
 
@@ -50,6 +137,21 @@
                 </article>
             </div>
         </div>
+<<<<<<< HEAD
+        <div class="one_third">
+            <h6 class="title">egestas diam sollicitudin</h6>
+            <ul class="nospace linklist">
+                <li><a href="#">non fusce quis dictum vitae accumsan</a></li>
+                <li><a href="#">erat in hac habitasse platea dictumst</a></li>
+                <li><a href="#">sed mi arcu mattis gravida feugiat</a></li>
+                <li><a href="#">aliquam nunc etiam neque lobortis</a></li>
+                <li><a href="#">tristique integer nunc eget dictum</a></li>
+            </ul>
+        </div>
+    </footer>
+
+=======
+>>>>>>> 47ea520d3b5c64d4e9849a5664f7471f665916a2
 
     </div>
     <div class="wrapper row5 footer" id="footer">
@@ -59,6 +161,33 @@
         </div>
     </div>
 
+<<<<<<< HEAD
+</div>
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<!-- IE9 Placeholder Support -->
+<script src="layout/scripts/jquery.placeholder.min.js"></script>
+<!-- / IE9 Placeholder Support -->
+</div> <!-- / background blur -->
+
+<div class="popupLogin">
+
+
+
+<form action="" method="post" name="Login_Form" class="form-signin">
+    <h3 class="form-signin-heading">Welcome Back! Please Sign In</h3>
+
+      <input type="text" class="form-control" name="Username" placeholder="Username" required="" autofocus="" />
+      <input type="password" class="form-control" name="Password" placeholder="Password" required=""/>
+
+      <button class="btn btn-lg btn-primary btn-block"  name="Submit" value="Login" type="Submit">Login</button>
+</form>
+
+
+=======
     <!-- JAVA SCRIPT -->
     <script src="layout/scripts/jquery.min.js"></script>
     <script src="layout/scripts/jquery.backtotop.js"></script>
@@ -67,6 +196,7 @@
     <!-- IE9 Placeholder Support -->
     <script src="layout/scripts/jquery.placeholder.min.js"></script>
     <!-- / IE9 Placeholder Support -->
+>>>>>>> 47ea520d3b5c64d4e9849a5664f7471f665916a2
 </div>
 </body>
 </html>
