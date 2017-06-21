@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>ECS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Style sheet -->
+    <link href="../layout/styles/styles.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="../layout/scripts/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body id="top">
+<!-- Jquery -->
+<script src="../layout/scripts/jquery.min.js"></script>
+
+<!-- Boot strap -->
+<script src="../layout/scripts/bootstrap.min.js"></script>
+
+<div id="container">
+
+    <div id="header">
+
+        <!-- Banner bar -->
+        <nav class="navbar navbar-inverse" style="padding-bottom:0;">
+
+            <a href="index.html">
+                <img src="../images/vic_logo.jpg" style="height:60px; float:left; margin: auto 0; margin-left: 40px;"/>
+                <img src="../images/logo.jpg" style="height:50px; float:left; margin: auto 0; margin-left: 40px;"/>
+            </a>
+
+        </nav>
+
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-inverse" style="padding:0px;">
+
+            <div class="container-fluid" style="float:left; margin-left:20px;">
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="dropdown nav-li-wrapper">
+                            <a href="homepage.html" class="nav-link-a" role="button">Home</a>
+                        </li>
+
+                        <li class="dropdown nav-li-wrapper">
+                            <a href="#" class="dropdown-toggle nav-link-a" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">
+                                Courses
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu drop-down-wrapper">
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="course.html">SWEN 301</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="course.html">ENGR 301</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="course.html">COMP 307</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="course.html">SWEN 303</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown nav-li-wrapper">
+                            <a href="marks.html" class="nav-link-a" role="button">Marks</a>
+                        </li>
+
+                        <li class="dropdown nav-li-wrapper">
+                            <a href="submittion.html" class="nav-link-a" role="button">Submission</a>
+                        </li>
+
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+    <div id="body" style="padding:10px 40px 40px 40px;">
+
+        <h1 style="padding-bottom:10px;">Course Marks</h1>
+
+        <div class="panel-group" id="accordion">
+
+            <!-- Lectures -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="btn-block">
+                        <h4 class="panel-title">SWEN 301</h4>
+                    </a>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse">
+                    <div class="panel-body">
+
+                        <div style="float:left;">
+                            <table class="table" style="max-width: 700px; margin:0 auto;">
+                                <thead>
+                                <tr>
+                                    <th>Assignment</th>
+                                    <th>Marks (%)</th>
+                                    <th>Grade (%)</th>
+                                    <th>Weight (%)</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Assignment One</td>
+                                    <td>98</td>
+                                    <td>A+</td>
+                                    <td>15</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Assignment Two</td>
+                                    <td>78.2</td>
+                                    <td>B+</td>
+                                    <td>15</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Project</td>
+                                    <td>85.5</td>
+                                    <td>A</td>
+                                    <td>50</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div style="float:right;">
+                            <table class="table" style="max-width: 700px; border:none;">
+                                <thead>
+                                <tr>
+                                    <th>Average</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>B+</td>
+                                    <td>77.6%</td>
+                                </tr>
+                                <tr>
+                                    <td>45%</td>
+                                    <td>Complete</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Assignment -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="btn-block">
+                        <h4 class="panel-title">ENGR 301</h4>
+                    </a>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">
+
+                        <div style="float:left;">
+                            <table class="table" style="max-width: 700px; margin:0 auto;">
+                                <thead>
+                                <tr>
+                                    <th>Assignment</th>
+                                    <th>Marks (%)</th>
+                                    <th>Grade (%)</th>
+                                    <th>Weight (%)</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Assignment One</td>
+                                    <td>98</td>
+                                    <td>A+</td>
+                                    <td>15</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Assignment Two</td>
+                                    <td>78.2</td>
+                                    <td>B+</td>
+                                    <td>15</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Project</td>
+                                    <td>85.5</td>
+                                    <td>A</td>
+                                    <td>50</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div style="float:right;">
+                            <table class="table" style="max-width: 700px; border:none;">
+                                <thead>
+                                <tr>
+                                    <th>Average</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>B+</td>
+                                    <td>77.6%</td>
+                                </tr>
+                                <tr>
+                                    <td>45%</td>
+                                    <td>Complete</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Outline -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="btn-block">
+                        <h4 class="panel-title">COMP 307</h4>
+                    </a>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">
+
+                        <div style="float:left;">
+                            <table class="table" style="max-width: 700px; margin:0 auto;">
+                                <thead>
+                                <tr>
+                                    <th>Assignment</th>
+                                    <th>Marks (%)</th>
+                                    <th>Grade (%)</th>
+                                    <th>Weight (%)</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Assignment One</td>
+                                    <td>98</td>
+                                    <td>A+</td>
+                                    <td>15</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Assignment Two</td>
+                                    <td>78.2</td>
+                                    <td>B+</td>
+                                    <td>15</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Project</td>
+                                    <td>85.5</td>
+                                    <td>A</td>
+                                    <td>50</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div style="float:right;">
+                            <table class="table" style="max-width: 700px; border:none;">
+                                <thead>
+                                <tr>
+                                    <th>Average</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>B+</td>
+                                    <td>77.6%</td>
+                                </tr>
+                                <tr>
+                                    <td>45%</td>
+                                    <td>Complete</td>
+                                </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Outline -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="btn-block">
+                        <h4 class="panel-title">SWEN 303</h4>
+                    </a>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                    <div class="panel-body">
+
+                        <div style="float:left;">
+                            <table class="table" style="max-width: 700px; margin:0 auto;">
+                                <thead>
+                                <tr>
+                                    <th>Assignment</th>
+                                    <th>Marks (%)</th>
+                                    <th>Grade (%)</th>
+                                    <th>Weight (%)</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Assignment One</td>
+                                    <td>98</td>
+                                    <td>A+</td>
+                                    <td>15</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Assignment Two</td>
+                                    <td>78.2</td>
+                                    <td>B+</td>
+                                    <td>15</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Project</td>
+                                    <td>85.5</td>
+                                    <td>A</td>
+                                    <td>50</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div style="float:right;">
+                            <table class="table" style="max-width: 700px; border:none;">
+                                <thead>
+                                <tr>
+                                    <th>Average</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>B+</td>
+                                    <td>77.6%</td>
+                                </tr>
+                                <tr>
+                                    <td>45%</td>
+                                    <td>Complete</td>
+                                </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="wrapper row5 footer" id="footer">
+        <div id="copyright" class="hoc clear">
+            <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Victoria University
+                Wellington</a></p>
+        </div>
+    </div>
+
+    <!-- JAVA SCRIPT -->
+    <script src="layout/scripts/jquery.min.js"></script>
+    <script src="layout/scripts/jquery.backtotop.js"></script>
+    <script src="layout/scripts/jquery.mobilemenu.js"></script>
+
+    <!-- IE9 Placeholder Support -->
+    <script src="layout/scripts/jquery.placeholder.min.js"></script>
+    <!-- / IE9 Placeholder Support -->
+</div>
+</body>
+</html>
