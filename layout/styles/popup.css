@@ -3,11 +3,11 @@ login {
     height: 100%;
 }
 .overlayLogin {
- 	position:absolute;
+ 	position:absolute; z-index: 1;
 	display:none;
 
     /* color with alpha transparency */
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.7);
 
     /* stretch to screen edges */
     top: 0;
@@ -16,7 +16,7 @@ login {
     right: 0;
 }
 .popupLogin {
-    position: fixed;
+    position: fixed;z-index: 1;
     width: 300px;
     height: 300px;
     display: none;

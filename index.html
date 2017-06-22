@@ -21,11 +21,7 @@
 <script src="layout/scripts/jquery.min.js"></script>
 
 
-<script>
-    $(document).ready(function () {
-        $(".overlayLogin, .popupLogin").fadeToggle();
-    })
-</script>
+
 
 <!-- Boot strap -->
 <script src="layout/scripts/bootstrap.min.js"></script>
@@ -47,7 +43,7 @@
     </div>
 
 
-   <!-- <div class="overlayLogin"></div>  background blur -->
+
 
 
     <div class="wrapper bgded overlay" style="background-image:url('images/banner.jpg');">
@@ -56,8 +52,8 @@
                 <h2 class="heading">Welcome to Victoria</h2>
                 <p>Where children get molested and dreams go to die</p>
                 <footer>
-                    <ul class="nospace inline pushright">
-                        <li><a class="btn" href="html/homepage.html">Current Student</a></li>
+                    <ul  class="nospace inline pushright">
+                        <li><a id="current" class="btn">Current Student</a></li>
                         <li><a class="btn inverse" href="#">Prospective Student</a></li>
                     </ul>
                 </footer>
@@ -96,21 +92,25 @@
 <!-- / IE9 Placeholder Support -->
 
 
-     <!-- </div> / background blur -->
 
+   <div class="overlayLogin"></div>
 
-<!--
 <div class="popupLogin">
-<form action="" method="post" name="Login_Form" class="form-signin">
+<form action="" method="post" name="Login_Form" class="form-signin" onsubmit="return false">
     <h3 class="form-signin-heading">Welcome Back! Please Sign In</h3>
 
     <input type="text" class="form-control" name="Username" placeholder="Username" required="" autofocus=""/>
     <input type="password" class="form-control" name="Password" placeholder="Password" required=""/>
 
-    <button class="btn btn-lg btn-primary btn-block" name="Submit" value="Login" type="Submit">Login</button>
+    <button class="btn btn-lg btn-primary btn-block" name="Submit" value="Login" type="Submit"  onclick="window.location.href='html/homepage.html'">Login</button>
 </form>
 </div>
--->
+
+<script>
+    $("#current").click(function () {
+        $(".overlayLogin, .popupLogin").fadeToggle();
+    })
+</script>
 
 <!-- JAVA SCRIPT -->
 <script src="layout/scripts/jquery.min.js"></script>
