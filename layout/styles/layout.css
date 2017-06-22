@@ -29,11 +29,21 @@
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:150px 0;}
+#pageintro{padding:200px 0;}
 
 #pageintro .introtxt{display:block; float:right; max-width:50%;}
 #pageintro .introtxt .heading{margin-bottom:30px; font-size:42px;}
 #pageintro .introtxt p{margin-bottom:30px; font-size:16px;}
+
+
+/* Prospective
+--------------------------------------------------------------------------------------------------------------- */
+#prospective{padding:100px 0; }
+
+#prospective .introtxt{display:block; float:left; max-width:68%; }
+#prospective .introtxt .heading{margin-bottom:30px; font-size:56px;}
+#prospective .introtxt p{margin-bottom:30px; font-size:27px;}
+
 
 
 /* Content Area
@@ -243,6 +253,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
 
+
+
 .btn, .btn.inverse:hover{color:#FFFFFF; background-color:#56AED4; border-color:#56AED4;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
@@ -329,7 +341,7 @@ table a, #comments a{background-color:inherit;}
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width:978px){
-	.hoc{max-width:978px;}
+	.hoc{max-width:90%;}
 }
 
 
