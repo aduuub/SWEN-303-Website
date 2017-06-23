@@ -24,23 +24,22 @@
 .nav-li-wrapper {
     padding-right: 2vw;
 }
-.navbar {
-    min-height:70px !important;
-}
 
+.navbar {
+    min-height: 70px !important;
+}
 
 .drop-down-wrapper li {
-    margin:0;
-    padding:0;
-    width:100% !important;
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
 }
 
-.nav>li>a {
+.nav > li > a {
     position: relative;
     display: block;
     padding: 10px 15px
 }
-
 
 .nav li.nav-li-wrapper#active > a, .nav li.nav-li-wrapper#active > a,
 .nav li.nav-li-wrapper > a:hover, .nav li.nav-li-wrapper > a:hover,
@@ -78,7 +77,7 @@
     font-size: 13px;
     font-weight: bold;
     line-height: normal;
-    width:100% !important;
+    width: 100% !important;
 }
 
 .drop-down-wrapper {
@@ -168,14 +167,13 @@ html, body {
 }
 
 .dropdown-menu {
-    padding:5px !important;
+    padding: 5px !important;
 }
-
 
 /* Alerts */
 
 .alert {
-    margin-bottom:5px !important;
+    margin-bottom: 5px !important;
 }
 
 /* Image cards - drop down */
@@ -188,9 +186,37 @@ html, body {
 }
 
 
+/* Prospective */
 
+.prospective-study-area {
+    clear: both;
+    float:left;
+    padding: 25px 0;
+}
 
+.prospective-study-area > img {
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+}
 
+.right-text {
+    float:right;
+    margin-left: 50px;
+    max-width:200px;
+}
+
+.center-text {
+    float:right;
+    width:450px;
+
+    margin-left: 50px;
+}
+
+.right-text > button {
+    margin-top:50px;
+}
 
 
 
