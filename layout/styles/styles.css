@@ -218,8 +218,47 @@ html, body {
     margin-top:50px;
 }
 
+.left-text {
+    float:left;
+    margin-right: 80px;
+    width: 400px;
+    font-size: 18px;
+}
 
 
+
+/* Prospective careers */
+
+.prospective-careers {
+    clear: both;
+    float:left;
+    padding: 25px 0;
+}
+
+.prospective-careers > img {
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin-left: 50px;
+}
+
+.prospective-careers-right-text {
+    float:right;
+    margin-left: 50px;
+    max-width:200px;
+}
+
+.prospective-careers-center-text {
+    float:right;
+    width:300px;
+
+
+    margin-left: 0px;
+}
+
+.prospective-careers-right-text > button {
+    margin-top:50px;
+}
 
 
 
