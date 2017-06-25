@@ -50,10 +50,7 @@ html {
   text-shadow: none;
 }
 
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
+/*t*/
 
 
 audio,
@@ -310,7 +307,6 @@ img {
 #educationSlider .owl-item > div,
 #experienceSlider .owl-item > div {
   width: 100%;
-  margin: 10px 0;
 }
 
 
@@ -714,7 +710,7 @@ header.nav.hide-menu {
 ----------------------------------- */
 
 #skill {
-  background: url('../../images/skills-bg.jpg') no-repeat scroll center center / cover;
+  /*background: url('../../images/skills-bg.jpg') no-repeat scroll center center / cover;*/
 }
 
 #skill .sec-overlay {

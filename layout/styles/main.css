@@ -50,10 +50,10 @@ html {
   text-shadow: none;
 }
 
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
+/*::selection {*/
+  /*background: #b3d4fc;*/
+  /*text-shadow: none;*/
+/*}*/
 
 
 audio,
@@ -310,7 +310,6 @@ body {
 #educationSlider .owl-item > div,
 #experienceSlider .owl-item > div {
   width: 100%;
-  margin: 10px 0;
 }
 
 

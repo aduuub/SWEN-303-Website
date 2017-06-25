@@ -6,11 +6,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-    <!-- Style sheet -->
-    <link href="../layout/styles/styles.css" rel="stylesheet">
+
 
     <!-- Bootstrap -->
     <link href="../layout/scripts/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/font/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/libs/materialize/css/materialize.min.css" media="screen,projection"/>
+
+    <link rel="stylesheet" href="assets/libs/sweetalert/sweet-alert.css" media="screen,projection"/>
+
+    <link rel="stylesheet" href="assets/libs/owl-carousel/owl.carousel.css" media="screen,projection"/>
+    <link rel="stylesheet" href="assets/libs/owl-carousel/owl.transitions.css" media="screen,projection"/>
+    <link rel="stylesheet" href="assets/libs/owl-carousel/owl.theme.css" media="screen,projection"/>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="../layout/styles/normalize.css">
+    <link rel="stylesheet" href="../layout/styles/normalize.css">
+    <link rel="stylesheet" href="../layout/styles/animate.min.css">
+    <link href="../layout/styles/styles.css" rel="stylesheet">
+
+    <!-- Login Popup -->
+    <link href="../layout/styles/popup.css" rel="stylesheet">
 
 </head>
 <body id="top">
@@ -20,13 +40,8 @@
 <!-- Boot strap -->
 <script src="../layout/scripts/bootstrap.min.js"></script>
 
-<script>
-    $(document).ready(function () {
-        $(".profile-img").hover(function () {
-            $("slider").toggleClass("closed");
-        });
-    });
-</script>
+<script src="../layout/styles/main.css"></script>
+
 
 <div id="container">
 
@@ -35,7 +50,7 @@
         <!-- Banner bar -->
         <nav class="navbar navbar-inverse" style="padding-bottom:0;">
 
-            <a href="index.html">
+            <a href="../index.html">
                 <img src="../images/vic_logo.jpg" style="height:60px; float:left; margin: auto 0; margin-left: 40px;"/>
                 <img src="../images/logo.jpg" style="height:50px; float:left; margin: auto 0; margin-left: 40px;"/>
             </a>
@@ -43,16 +58,16 @@
         </nav>
 
         <!-- Navigation bar -->
-        <nav class="navbar navbar-inverse" style="padding:0px;">
+        <nav class="navbar navbar-inverse" style="padding-top:0;">
 
-            <div class="container-fluid" style="float:left; margin-left:20px;">
+            <div class="container-fluid" style="float:left; margin-left:10px; ">
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="nav">
+                <div class="collapse navbar-collapse" id="nav" style="">
                     <ul class="nav navbar-nav navbar-right">
 
-                        <li class="dropdown nav-li-wrapper">
-                            <a href="#" class="nav-link-a" role="button">Home</a>
+                        <li class="dropdown nav-li-wrapper" style="">
+                            <a href="homepage.html" class="nav-link-a" role="button">Home</a>
                         </li>
 
                         <li class="dropdown nav-li-wrapper">
@@ -61,19 +76,18 @@
                                 Courses
                                 <span class="caret"></span></a>
                             <ul class="dropdown-menu drop-down-wrapper">
-                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="course.html">SWEN
-                                    301</a></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="course.html">SWEN 301</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">ENGR 301</a></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="course.html">ENGR 301</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">COMP 307</a></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="course.html">COMP 307</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">SWEN 303</a></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="course.html">SWEN 303</a></li>
                             </ul>
                         </li>
 
                         <li class="dropdown nav-li-wrapper">
-                            <a href="#" class="nav-link-a" role="button">Marks</a>
+                            <a href="marks.html" class="nav-link-a" role="button">Marks</a>
                         </li>
 
                         <li class="dropdown nav-li-wrapper">
@@ -86,7 +100,9 @@
             </div><!-- /.container-fluid -->
         </nav>
     </div>
-    <div id="body" style="padding:20px;">
+
+
+    <div id="body" style="padding:10px 40px 40px 40px;">
 
         <h1 style="padding-bottom:10px;">Notifications</h1>
         <div class="alert alert-danger" style="">
@@ -109,16 +125,111 @@
             <p>Successfully submitted Assignment Three for SWEN 303</p>
         </div>
 
+        <div id="experienceSlider" class="clearfix card-element-wrapper">
+            <div class="col-sm-3 cold-xs-12 single-card-box wow fadeInUpSmall"
+                 data-wow-duration=".7s" style="padding:5px !important;">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <div class="valign-wrapper card-img-wrap">
+                            <img class="activator"
+                                 src="../images/vec.jpg"
+                                 alt="">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                                        <span class="card-title activator brand-text">Victoria Engineering Club
+                                            <i class="mdi-navigation-more-vert right"></i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <div class="rev-title-wrap">
+                                            <span class="card-title activator brand-text">Victoria Engineering
+                                                <i class="mdi-navigation-close right"></i></span>
+                        </div>
+                        <div style="padding:20px;">
+                            <p>Open to all Victoria University of Wellington students
+                                interested in Engineering, Computer science, or
+                                technology in general.</p>
+
+                            <p>Check out upcoming events on the <br>
+                                <a href="https://www.google.com/calendar/embed?src=duckalini%40gmail.com&ctz=Pacific%2FAuckland">VEC
+                                    Google Calendar</a>
+                                <br><br>
+                                Contact us: <br>
+                                <a href="mailto:president@vec.org.nz" target="_top"
+                                   style="margin-right:5px;">Email</a>our President
+                                <br>
+                                Or find us on
+                                <a href="https://www.facebook.com/engrclub">Facebook</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
+
+
     <div class="wrapper row5 footer" id="footer">
         <div id="copyright" class="hoc clear">
             <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Victoria University
                 Wellington</a></p>
         </div>
     </div>
+</div>
 
-    <!-- JAVA SCRIPT -->
-    <script src="../js/main.js"></script>
+<!--
+<div class="overlayLogin">
+</div>
+
+<div class="popupLogin">
+    <form action="" method="post" name="Login_Form" class="form-signin" onsubmit="return false">
+        <h3 class="form-signin-heading">Welcome Back! Please Sign In</h3>
+
+        <input type="text" class="form-control" name="Username" placeholder="Username" required="" autofocus=""/>
+        <input type="password" class="form-control" name="Password" placeholder="Password" required=""/>
+        <button id="login" class="btn btn-lg btn-primary btn-block" name="Submit" value="Login" type="Submit">
+            Login
+        </button>
+    </form>
+</div>
+-->
+
+<!-- Login Popup -->
+<script>
+    $(document).ready(function () {
+        $(".overlayLogin, .popupLogin").fadeToggle();
+    })
+
+    $("#login").click(function () {
+        $(".overlayLogin, .popupLogin").fadeToggle();
+    })
+
+</script>
+
+<!-- JAVA SCRIPT -->
+<script src="../js/wow.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="assets/js/jquery.easing.1.3.js"></script>
+<script src="assets/js/detectmobilebrowser.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/waypoints.js"></script>
+<script src="assets/js/jquery.counterup.min.js"></script>
+<script src="assets/js/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="assets/js/gmaps.js"></script>
+<script src="assets/libs/owl-carousel/owl.carousel.min.js"></script>
+<script src="assets/libs/materialize/js/materialize.min.js"></script>
+<script src="assets/libs/jwplayer/jwplayer.js"></script>
+<script src="assets/libs/sweetalert/sweet-alert.min.js"></script>
+<script src="assets/js/common.js"></script>
+<script src="assets/js/main.js"></script>
+
+<!-- IE9 Placeholder Support -->
+<!-- / IE9 Placeholder Support -->
+
 
 </div>
 </body>

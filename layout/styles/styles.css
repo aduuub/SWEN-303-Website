@@ -219,6 +219,19 @@ html, body {
 }
 
 
+/* Tables */
+
+table > thead {
+    background: transparent;
+    color: #FFFFFF;
+}
+
+table, table > tr, td, th {
+    border-width:0;
+    border-color: #FFF;
+}
+
+
 
 
 
