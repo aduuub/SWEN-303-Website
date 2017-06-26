@@ -41,7 +41,7 @@ login {
   margin-bottom: 30px;
   color: white;
   font-family: 'Lato', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     line-height: normal;
 }
@@ -51,6 +51,7 @@ login {
   font-size: 16px;
   height: auto;
   padding: 10px;
+    margin: 10px 0;
 }
 
 input[type="text"] {
