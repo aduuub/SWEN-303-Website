@@ -132,6 +132,12 @@ a h4.panel-title, a:hover {
     color: #000;
 }
 
+a h3.panel-title, a:hover {
+    text-decoration: none !important;
+    color: #000;
+    font-size: 24px;
+}
+
 /*footer*/
 
 #container {
@@ -224,7 +230,7 @@ html, body {
 
 .left-text {
     float:left;
-    margin-right: 80px;
+    margin-right: 50px;
     width: 400px;
     font-size: 18px;
 }
@@ -256,7 +262,7 @@ table, table > tr, td, th {
     width: 400px;
     height: 200px;
     float: right;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 .prospective-careers-right-text {
@@ -288,9 +294,46 @@ table, table > tr, td, th {
 
 
 
+/* postgrad */
+
+.postgrad {
+    clear: both;
+    float:left;
+    padding: 25px 0;
+}
+
+.postgrad > img {
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin-left: 80px;
+}
+
+.postgrad-right-text {
+    float:right;
+    margin-left: 50px;
+    max-width:200px;
+}
+
+.postgrad-center-text {
+    float:right;
+    width:500px;
 
 
+    margin-left: 0px;
 
+}
+
+.postgrad-right-text > button {
+    margin-top:50px;
+}
+
+.postgrad-left-text {
+    float:left;
+    margin-right: 80px;
+    width: 600px;
+    font-size: 18px;
+}
 
 
 
