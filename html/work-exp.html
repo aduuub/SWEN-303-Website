@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>ECS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Style sheet -->
+    <link href="../layout/styles/styles.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="../layout/scripts/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body id="top">
+<!-- Jquery -->
+<script src="../layout/scripts/jquery.min.js"></script>
+
+<!-- Boot strap -->
+<script src="../layout/scripts/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $(".profile-img").hover(function () {
+            $("slider").toggleClass("closed");
+        });
+    });
+</script>
+
+<div id="container">
+
+    <div id="header">
+
+        <!-- Banner bar -->
+        <nav class="navbar navbar-inverse" style="padding-bottom:0;">
+
+            <a href="index.html">
+                <img src="../images/vic_logo.jpg" style="height:60px; float:left; margin: auto 0; margin-left: 40px;"/>
+                <img src="../images/logo.jpg" style="height:50px; float:left; margin: auto 0; margin-left: 40px;"/>
+            </a>
+
+        </nav>
+
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-inverse" style="padding:0px;">
+
+            <div class="container-fluid" style="float:left; margin-left:20px;">
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="dropdown nav-li-wrapper">
+                            <a href="#" class="nav-link-a" role="button">Home</a>
+                        </li>
+
+                        <li class="dropdown nav-li-wrapper">
+                            <a href="#" class="dropdown-toggle nav-link-a" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">
+                                About
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu drop-down-wrapper">
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="about-engr.html">Engineering</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="about-compsci.html">Computer Science</a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li class="dropdown nav-li-wrapper">
+                            <a href="#" class="dropdown-toggle nav-link-a" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">
+                                Study
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu drop-down-wrapper">
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">Your Degree</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">Study Areas</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">Papers</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">Postgrad</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown nav-li-wrapper">
+                            <a href="#" class="dropdown-toggle nav-link-a" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">
+                                Careers
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu drop-down-wrapper">
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="potential-careers.html">Potential Careers</a>
+                                </li>
+                                <li role="separator" class="divider"></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">Work Experience</a>
+                                </li>
+                                <li role="separator" class="divider"></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">Awards &
+                                    Scholarships</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+
+
+    <div class="wrapper bgded" style="background-color:rgb(255,255,255)">
+        <div class="work">
+                            <div class="right-text">
+                </div>
+                <img src="../images/work.jpg"/>
+
+
+                <div class="work-center-text">
+                    <h1>Work Experience</h1>
+                    <p style="font-size:20px;">Welcome to our Work Experience Programme which complements our taught courses to enhance your appreciation of engineering, helps direct your future career paths and makes your CV more attractive to potential employers.
+                        <br>
+                        <br>
+                        Work experience is a key part of the Bachelor of Engineering degree.
+                        <br><br>
+                        It is a requirement of the degree to complete 800 hours (100 days) of approved work experience in an engineering environment.
+                        <br>
+                        The goals of work experience are
+                        to increase an understanding of the engineering terms and concepts introduced during the degree course and
+                        so provide actual experience of different work roles that you are likely to encounter once working as a professional engineer.</p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="wrapper row5 footer" id="footer">
+            <div id="copyright" class="hoc clear">
+                <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Victoria University
+                    Wellington</a></p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- JAVA SCRIPT -->
+    <script src="../js/main.js"></script>
+
+</div>
+</body>
+</html>

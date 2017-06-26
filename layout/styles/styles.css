@@ -335,6 +335,37 @@ table, table > tr, td, th {
     font-size: 18px;
 }
 
+/* work */
+
+.work {
+    clear: both;
+    float:left;
+    padding: 25px 0;
+}
+
+.work > img {
+    width: 40%;
+    height: 30%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.work-right-text {
+    float:right;
+    margin-left: 50px;
+    max-width:200px;
+}
+
+.work-center-text {
+    float:right;
+    width:800px;
+
+
+    margin-left: 30px;
+
+}
+
 
 
 
