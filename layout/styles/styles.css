@@ -17,12 +17,16 @@
 
 /* NAV BAR */
 
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+}
+
 .nav-image {
     padding: 5px;
 }
 
 .nav-li-wrapper {
-    padding-right: 2vw;
+    margin-right: 2vw;
 }
 
 .navbar {
@@ -273,7 +277,13 @@ table, table > tr, td, th {
     margin-top:50px;
 }
 
+.card, .single-card-box{
+    border-width: 10px !important;
+    border-color: #000 !important;
 
+    -webkit-border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+}
 
 
 
