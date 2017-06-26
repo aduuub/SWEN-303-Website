@@ -277,7 +277,7 @@ table, table > tr, td, th {
     margin-top:50px;
 }
 
-.card, .single-card-box{
+.card, .single-card-box, .card-image{
     border-width: 10px !important;
     border-color: #000 !important;
 
