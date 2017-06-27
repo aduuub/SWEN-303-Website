@@ -302,6 +302,13 @@ table, table > tr, td, th {
     padding: 25px 0;
 }
 
+.about {
+    clear: both;
+    float:left;
+    padding: 25px 0;
+    margin-left: 10%;
+}
+
 .postgrad > img {
     width: 400px;
     height: 200px;
@@ -332,6 +339,13 @@ table, table > tr, td, th {
     float:left;
     margin-right: 80px;
     width: 600px;
+
+}
+
+.about-left-text {
+    float:left;
+    margin-right: 80px;
+    width: 80%;
     font-size: 18px;
 }
 
@@ -367,14 +381,30 @@ table, table > tr, td, th {
 }
 
 
+.awards {
+    clear: both;
+    float:left;
+    padding: 25px 0;
+}
+
+.awards > img {
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin-left: 40px;
+}
 
 
 
 
 
 
-
-
+.awards-left-text {
+    float:left;
+    margin-right: 00px;
+    width: 700px;
+    font-size: 18px;
+}
 
 
 

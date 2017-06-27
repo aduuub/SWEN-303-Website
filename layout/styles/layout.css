@@ -45,6 +45,14 @@
 #prospective .introtxt p{margin-bottom:30px; font-size:27px;}
 
 
+/* about
+---------------------------------------------------------------------------------------------------------------*/
+#about{padding:100px 0; }
+
+#about .introtxt{display:block; float:left; max-width:100%; }
+#about .introtxt .heading{margin-bottom:30px; font-size:180px;text-align: center;}
+#about .introtxt p{margin-bottom:30px; font-size:27px;}
+
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */

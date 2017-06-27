@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>ECS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Style sheet -->
+    <link href="../layout/styles/styles.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="../layout/scripts/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body id="top">
+<!-- Jquery -->
+<script src="../layout/scripts/jquery.min.js"></script>
+
+<!-- Boot strap -->
+<script src="../layout/scripts/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $(".profile-img").hover(function () {
+            $("slider").toggleClass("closed");
+        });
+    });
+</script>
+
+<div id="container">
+
+    <div id="header">
+
+        <!-- Banner bar -->
+        <nav class="navbar navbar-inverse" style="padding-bottom:0;">
+
+            <a href="index.html">
+                <img src="../images/vic_logo.jpg" style="height:60px; float:left; margin: auto 0; margin-left: 40px;"/>
+                <img src="../images/logo.jpg" style="height:50px; float:left; margin: auto 0; margin-left: 40px;"/>
+            </a>
+
+        </nav>
+
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-inverse" style="padding:0px;">
+
+            <div class="container-fluid" style="float:left; margin-left:20px;">
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="dropdown nav-li-wrapper">
+                            <a href="#" class="nav-link-a" role="button">Home</a>
+                        </li>
+
+                        <li class="dropdown nav-li-wrapper">
+                            <a href="#" class="dropdown-toggle nav-link-a" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">
+                                About
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu drop-down-wrapper">
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="about-engr.html">Engineering</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="about-compsci.html">Computer Science</a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li class="dropdown nav-li-wrapper">
+                            <a href="#" class="dropdown-toggle nav-link-a" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">
+                                Study
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu drop-down-wrapper">
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">Your Degree</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="study-areas.html">Study Areas</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">Papers</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">Postgrad</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown nav-li-wrapper">
+                            <a href="#" class="dropdown-toggle nav-link-a" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">
+                                Careers
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu drop-down-wrapper">
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">Potential Careers</a>
+                                </li>
+                                <li role="separator" class="divider"></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">Work Experience</a>
+                                </li>
+                                <li role="separator" class="divider"></li>
+                                <li class="nav-li-wrapper" style="padding-right: 0px;"><a href="#">Awards &
+                                    Scholarships</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+
+
+    <div class="wrapper bgded" style="background-color:rgb(255,255,255)">
+        <div id="prospective" class="hoc" style="" >
+            <article class="introtxt" style="margin: 0 auto;">
+                <h1 class="heading">Awards and scholarships</h1>
+                <p style="font-size:24px;">
+                    View the range of scholarships and prizes available to students in the School of Engineering and Computer Science.
+                    </p>
+            </article>
+            <hr/>
+
+            <div class="awards">
+                <img src="../images/secure-anal.jpeg"/>
+                <div class="awards-left-text">
+                    <h1>Postgraduate scholarships</h1>
+                    <p>Victoria University offers a range of scholarships for postgraduate study.
+                    <br>
+                    Scholarships of particular interest to students in the School of Engineering and Computer Science are listed below.
+                    <br>
+                    <br>
+                    Further information on all scholarships can be found on the <a href="#">Scholarships</a>  web page.</div>
+            </div>
+            <hr/>
+
+            <div class="awards">
+                <img src="../images/web-dev.jpeg"/>
+                <div class="awards-left-text">
+                    <h1>Victoria PhD and Doctoral Scholarships</h1>
+                    <p>Application for these scholarships is made as part of the application for admission to the PhD programme.
+                    <br>
+                   The same closing dates of 1 March, 1 July and 1 November each year apply.
+                    <br>
+                    <br>
+                    Details and <a href="#">application form</a>.</div>
+            </div>
+            <hr/>
+
+            <div class="awards">
+                <img src="../images/code.jpg"/>
+                <div class="awards-left-text">
+                    <h1>Victoria Masters Scholarships</h1>
+                    <p>These scholarships are for students enrolling in Masters Part 2, by thesis.
+                    <br>
+                    Applications close on 1 November. Value $15,000 per year + domestic fees for 1 year.
+                    <br>
+                    <br>
+                    Details and <a href="#">application form</a>.</div>
+            </div>
+            <hr/>
+
+            <div class="awards">
+                <img src="../images/software-dev.jpeg"/>
+                <div class="awards-left-text">
+                    <h1>Tu Horomata Scholarships</h1>
+                    <p>Targeted Māori scholarships for study at Masters or Honours level, for students with strong academic potential.
+                    <br>
+                    Applications close on 1 April each year. Value: Masters by thesis - a stipend of $12,500 for one year only. Consideration may be given to fund Honours or Masters by coursework programmes to a maximum of $5,000.
+                    <br>
+                    <br>
+                    Details and <a href="#">application form</a>.</div>
+            </div>
+            <hr/>
+
+        </div>
+
+
+        <div class="wrapper row5 footer" id="footer">
+            <div id="copyright" class="hoc clear">
+                <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Victoria University
+                    Wellington</a></p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- JAVA SCRIPT -->
+    <script src="../js/main.js"></script>
+
+</div>
+</body>
+</html>
