@@ -331,6 +331,15 @@ table, table > tr, td, th {
 
 }
 
+.your-degree-center-text {
+    float:right;
+    width:600px;
+
+
+    margin-left: 0px;
+
+}
+
 .postgrad-right-text > button {
     margin-top:50px;
 }
